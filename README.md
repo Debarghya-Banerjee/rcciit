@@ -1,66 +1,27 @@
-# README.md
+# RCCIIT Campus Connect Plugin
 
-# RCCIIT
+This plugin allows students to submit feedback for the RCCIIT X WordPress Campus Connect program.
 
-This repository contains the custom `wp-content` directory for the project.
 
-WordPress core files are intentionally excluded from version control. Only project-specific code inside `wp-content` is tracked.
+## Features
+- Frontend form using shortcode: [rcciit_campus_connect_form]
+- Fields: Name, Roll Number, Email, and Feedback.
+- Stores submissions in a Custom Post Type (rcciit_test).
+- Saves Roll Number and Email as post meta.
+- Sends a confirmation email after submission.
+- Uses nonce, sanitization, and validation for security.
+- Admin view Support.
 
----
 
-## Prerequisites
+## Installation
+1. Clone the repository.
+2. Copy the `plugins/rcciit_campus_connect` folder into your WordPress `wp-content/plugins` directory.
+3. Activate the plugin from WordPress admin.
+4. Add the shortcode `[rcciit_campus_connect_form]` to any page.
 
-Ensure you have the following installed:
 
-- PHP (compatible with WordPress)
-- MySQL / MariaDB
-- Web server (Apache / Nginx)
-- WordPress (latest stable recommended)
-- Git
+## Notes
+This is a student assignment for RCCIIT X WP.
 
----
-
-## Recommended Local Environment
-
-We recommend using **Local (by Flywheel)** for setting up WordPress locally.
-
-Download Local here:  
-https://localwp.com/
-
----
-
-## Setup Instructions
-
-### 1. Fork the Repository
-
-Fork this repository to your own GitHub account.
-
-Click the **Fork** button at the top-right of this repository page.
-
----
-
-### 2. Create a Fresh WordPress Site
-
-Create a new WordPress site locally using **Local (by Flywheel)** or any setup of your choice.
-
-After setup, ensure:
-- The site loads correctly
-- WordPress admin panel is accessible
-
----
-
-### 3. Remove the Default `wp-content` Directory
-
-From the WordPress root directory, remove the existing `wp-content` folder:
-
-```bash
-rm -rf wp-content
-```
-
----
-
-### 4. Clone your forked repository
-
-```bash
-git clone <forked-repo> wp-content
-```
+### Author
+Jayeeta Pal.
