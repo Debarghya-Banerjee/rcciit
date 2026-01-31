@@ -1,0 +1,167 @@
+.rtp-home-block-section {
+	padding-top: rem-calc(80);
+	padding-bottom: rem-calc(80);
+}
+
+/*==============================
+          SECTION 2
+===============================*/
+
+.rtp-about-site-images {
+	img {
+		display: inline-block;
+		width: 47%;
+
+		&:last-child {
+			margin-left: 3%;
+		}
+
+		&:only-child {
+			width: auto;
+			margin-left: 0;
+		}
+	}
+}
+
+.rtp-section-2 {
+	.rtp-heading-description {
+		margin-bottom: rem-calc(30);
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+	.rtp-readmore {
+		display: inline-block;
+		margin-top: 15px;
+		font-size: 16px;
+	}
+        
+        .rtp-special-title{
+                margin-bottom: rem-calc(30);
+        }
+}
+
+/*==============================
+          SECTION 3
+===============================*/
+
+.rtp-section-3 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+	.rtp-section-3-inner {
+		position: relative;
+	}
+
+	.rtp-heading-description {
+		color: $white;
+		margin-bottom: rem-calc(40);
+	}
+}
+
+.rtp-section-3-title,
+.rtp-section-4-title,
+.rtp-section-5-title {
+	text-align: center;
+}
+
+.rtp-section-3,
+.rtp-section-4,
+.rtp-section-5 {
+	footer {
+		text-align: center;
+		margin-top: rem-calc(58);
+	}
+}
+
+/*==============================
+          SECTION 4
+===============================*/
+
+.rtp-section-4 {
+	.rtp-heading-description {
+		margin-bottom: rem-calc(40);
+	}
+}
+
+.rtp-section-4-thumbs {
+	ul {
+		list-style: none;
+		width: 100%;
+		margin: 0px;
+	}
+
+	li {
+		text-align: center;
+
+		img {
+			width: rem-calc(150);
+			height: rem-calc(150);
+
+			@include border-radius;
+		}
+
+		.rtp-profile-name {
+			margin-top: rem-calc(10);
+			display: block;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+
+	a {
+		text-decoration: none;
+	}
+}
+
+.rtp-thumb-box {
+	position: relative;
+
+	.rtp-thumb-title {
+		background: $black;
+		opacity: 0.8;
+		padding: rem-calc(15 10);
+		margin: 0;
+		text-align: center;
+		font-weight: 400;
+
+		a {
+			color: $white;
+			font-size: rem-calc(20);
+			text-decoration: none;
+			font-weight: 400;
+
+			&:hover {
+				color: $theme-color;
+			}
+		}
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+		max-height: 285px;
+		display: inline-block;
+		margin: 0 auto;
+	}
+}
+
+/*==============================
+          SECTION 5
+===============================*/
+
+.rtp-section-5 {
+	position: relative;
+	background-size: cover;
+
+	.rtp-section-5-inner {
+		position: relative;
+	}
+
+	.rtp-heading-description {
+		color: $white;
+	}
+}

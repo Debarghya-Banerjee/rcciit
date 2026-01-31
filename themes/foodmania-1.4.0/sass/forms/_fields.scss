@@ -1,0 +1,35 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	border: 1px solid $border-field;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="tel"] {
+	padding: rem-calc(5);
+	text-indent: rem-calc(10);
+	border: 1px solid $border-field;
+	border-radius: 3px;
+
+	.standard-form & {
+		width: 75%;
+	}
+}
+input[type="search"] {
+	padding: rem-calc(5);
+	text-indent: rem-calc(10);
+	border: 1px solid $border-field;
+	border-radius: 3px;
+	float: left;
+}
+
+
+textarea {
+	@include textarea;
+}

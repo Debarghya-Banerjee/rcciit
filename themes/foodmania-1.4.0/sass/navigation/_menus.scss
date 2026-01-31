@@ -1,0 +1,153 @@
+.rtp-main-navigation {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+		ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			float: left;
+			position: absolute;
+			top: 50px;
+			left: -999em;
+			z-index: 99999;
+			opacity: 0;
+
+			@include transition-ease(0.5s);
+
+			ul {
+				left: -999em;
+				top: 0;
+
+				.menu-item-has-children:hover > a:after,
+				.menu-item-has-children > a:after {
+					content: "";
+
+					/*Remove arow for third level of menu*/
+				}
+			}
+
+			li {
+				&:hover > ul, &:focus > ul, &.focus > ul {
+					right: 100%;
+					box-shadow: none;
+				}
+
+				background: $black;
+				border-bottom: 1px solid #414141;
+				height: auto;
+
+				&:last-child {
+					box-shadow: none;
+				}
+			}
+
+			li.current_page_item, li.current_page_parent, li.current_page_ancestor, li.current-menu-item {
+				a {
+					box-shadow: none;
+				}
+			}
+
+			a {
+				width: 200px;
+				color: $white;
+				padding: 0;
+				margin: 0;
+				padding: 15px 20px;
+			}
+
+			:hover > a,
+			.focus > a {
+				box-shadow: none;
+			}
+		}
+
+		li:hover > ul, li:focus > ul, li.focus > ul {
+			left: auto;
+			opacity: 1;
+		}
+	}
+
+	li {
+		float: left;
+		position: relative;
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		color: $white;
+		text-transform: uppercase;
+		font-size: rem-calc(15);
+		line-height: 1.5;
+		margin: rem-calc(14.40 12);
+		padding-bottom: rem-calc(5);
+		word-wrap: break-word;
+
+		@include transition-ease(0.25s);
+	}
+
+	.menu-item-has-children > a:after {
+		content: "\f139";
+
+		@include dashicon;
+
+		vertical-align: top;
+		font-size: rem-calc(16);
+		position: absolute;
+	}
+
+	.menu-item-has-children > a.rt-open:after,
+	.menu-item-has-children:hover > a:after {
+		content: "\f140";
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	a:hover {
+		@include link-current;
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	& .nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	& .nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}
+
+.rtp-current-user-avatar {
+	margin-top: -5px;
+	text-transform: capitalize;
+
+	img {
+		border-radius: 100%;
+	}
+}
+
+#masthead .rtp-login.button {
+	background: none;
+	display: block;
+	text-decoration: none;
+	color: $white;
+	text-transform: uppercase;
+	font-size: 0.9375rem;
+	font-weight: normal;
+	line-height: 1.5;
+	padding: 0 0 0.3125rem;
+	word-wrap: break-word;
+}

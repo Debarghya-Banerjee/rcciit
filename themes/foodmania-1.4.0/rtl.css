@@ -1,0 +1,189 @@
+/*
+Theme Name: foodmania
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+/**
+ * 1.0 Reset
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+
+/**
+ * 3.0 Elements
+ */
+
+ul,
+ol {
+	margin: 0 1.3333em 1.6em 0;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}
+
+
+/**
+ * 4.0 Forms
+ */
+
+
+
+/**
+ * 5.0 Navigations
+ */
+
+.rtp-main-navigation ul ul {
+	right: -17px;
+}
+
+.rtp-main-navigation ul.menu > li{
+	float: right;
+}
+
+
+
+
+/**
+ * 6.0 Accessibility
+ */
+
+.screen-reader-text:hover,
+.screen-reader-text:focus {
+	right: 5px;
+	left: auto;
+}
+
+
+/**
+ * 7.0 Alignments
+ */
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.4em 0 1.6em 1.6em;
+}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.4em 1.6em 1.6em 0;
+}
+
+
+/**
+ * 8.0 Header
+ */
+
+.rtp-list-post .entry-header.column, .single .entry-header.column{
+	float: right;
+}
+
+.rtp-list-post .entry-content.column, .single .entry-content.column{
+	float: left;
+}
+
+/**
+ * 9.0 Widgets
+ */
+
+
+/**
+ * 10.0 Content
+ */
+
+/**
+ * 10.1 Posts and pages
+ */
+
+#primary{
+	float: right;
+}
+
+#secondary{
+	float: left;
+}
+
+
+/**
+ * 10.2 Comments
+ */
+
+.rtp-comment-user-profile{
+	margin-left: 20px;
+}
+
+.rtp-main-comment{
+
+}
+
+.rtp-comment-user-profile img{
+	float: right;
+}
+
+.rtp-comment-meta{
+	float: right;
+	margin-right: 15px;
+}
+
+.comment-respond .form-submit{
+	float: right;
+	margin-right: 0;
+	margin-left: 1.25rem;
+}
+
+/**Buddypress**/
+
+#buddypress div.item-list-tabs ul li{
+	margin-right: 0;
+	margin-left: 1.875rem;
+}
+
+.rtp-cover-header-nav li{
+	float: right;
+	margin-right: 0;
+	margin-left: 1.875rem;
+}
+
+.rtp-cover-header-avatar{
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+
+.rtp-item-header-right{
+	float: right;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInJ0bC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7OztFQVNFOztBQUVGOztHQUVHOztBQUVIO0NBQ0MsZUFBZTtDQUNmLG9CQUFvQjtDQUNwQjs7QUFFRDs7O0NBR0Msa0JBQWtCO0NBQ2xCOzs7QUFHRDs7R0FFRzs7QUFFSDs7Q0FFQywyQkFBMkI7Q0FDM0I7O0FBRUQ7OztDQUdDLGtCQUFrQjtDQUNsQjs7O0FBR0Q7O0dBRUc7Ozs7QUFJSDs7R0FFRzs7QUFFSDtDQUNDLGFBQWE7Q0FDYjs7QUFFRDtDQUNDLGFBQWE7Q0FDYjs7Ozs7QUFLRDs7R0FFRzs7QUFFSDs7Q0FFQyxXQUFXO0NBQ1gsV0FBVztDQUNYOzs7QUFHRDs7R0FFRzs7QUFFSDtDQUNDLGFBQWE7Q0FDYjs7QUFFRDtDQUNDLFlBQVk7Q0FDWjs7QUFFRDtDQUNDLG1CQUFtQjtDQUNuQixrQkFBa0I7Q0FDbEI7O0FBRUQ7OztDQUdDLDRCQUE0QjtDQUM1Qjs7QUFFRDs7O0NBR0MsNEJBQTRCO0NBQzVCOzs7QUFHRDs7R0FFRzs7QUFFSDtDQUNDLGFBQWE7Q0FDYjs7QUFFRDtDQUNDLFlBQVk7Q0FDWjs7QUFFRDs7R0FFRzs7O0FBR0g7O0dBRUc7O0FBRUg7O0dBRUc7O0FBRUg7Q0FDQyxhQUFhO0NBQ2I7O0FBRUQ7Q0FDQyxZQUFZO0NBQ1o7OztBQUdEOztHQUVHOztBQUVIO0NBQ0Msa0JBQWtCO0NBQ2xCOztBQUVEOztDQUVDOztBQUVEO0NBQ0MsYUFBYTtDQUNiOztBQUVEO0NBQ0MsYUFBYTtDQUNiLG1CQUFtQjtDQUNuQjs7QUFFRDtDQUNDLGFBQWE7Q0FDYixnQkFBZ0I7Q0FDaEIscUJBQXFCO0NBQ3JCOztBQUVELGdCQUFnQjs7QUFFaEI7Q0FDQyxnQkFBZ0I7Q0FDaEIsc0JBQXNCO0NBQ3RCOztBQUVEO0NBQ0MsYUFBYTtDQUNiLGdCQUFnQjtDQUNoQixzQkFBc0I7Q0FDdEI7O0FBRUQ7Q0FDQyxhQUFhO0NBQ2IsZ0JBQWdCO0NBQ2hCLGtCQUFrQjtDQUNsQjs7QUFFRDtDQUNDLGFBQWE7Q0FDYiIsImZpbGUiOiJydGwuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLypcblRoZW1lIE5hbWU6IGZvb2RtYW5pYVxuXG5BZGRpbmcgc3VwcG9ydCBmb3IgbGFuZ3VhZ2Ugd3JpdHRlbiBpbiBhIFJpZ2h0IFRvIExlZnQgKFJUTCkgZGlyZWN0aW9uIGlzIGVhc3kgLVxuaXQncyBqdXN0IGEgbWF0dGVyIG9mIG92ZXJ3cml0aW5nIGFsbCB0aGUgaG9yaXpvbnRhbCBwb3NpdGlvbmluZyBhdHRyaWJ1dGVzXG5vZiB5b3VyIENTUyBzdHlsZXNoZWV0IGluIGEgc2VwYXJhdGUgc3R5bGVzaGVldCBmaWxlIG5hbWVkIHJ0bC5jc3MuXG5cbmh0dHA6Ly9jb2RleC53b3JkcHJlc3Mub3JnL1JpZ2h0X3RvX0xlZnRfTGFuZ3VhZ2VfU3VwcG9ydFxuXG4qL1xuXG4vKipcbiAqIDEuMCBSZXNldFxuICovXG5cbmJvZHkge1xuXHRkaXJlY3Rpb246IHJ0bDtcblx0dW5pY29kZS1iaWRpOiBlbWJlZDtcbn1cblxuY2FwdGlvbixcbnRoLFxudGQge1xuXHR0ZXh0LWFsaWduOiByaWdodDtcbn1cblxuXG4vKipcbiAqIDMuMCBFbGVtZW50c1xuICovXG5cbnVsLFxub2wge1xuXHRtYXJnaW46IDAgMS4zMzMzZW0gMS42ZW0gMDtcbn1cblxuY2FwdGlvbixcbnRoLFxudGQge1xuXHR0ZXh0LWFsaWduOiByaWdodDtcbn1cblxuXG4vKipcbiAqIDQuMCBGb3Jtc1xuICovXG5cblxuXG4vKipcbiAqIDUuMCBOYXZpZ2F0aW9uc1xuICovXG5cbi5ydHAtbWFpbi1uYXZpZ2F0aW9uIHVsIHVsIHtcblx0cmlnaHQ6IC0xN3B4O1xufVxuXG4ucnRwLW1haW4tbmF2aWdhdGlvbiB1bC5tZW51ID4gbGl7XG5cdGZsb2F0OiByaWdodDtcbn1cblxuXG5cblxuLyoqXG4gKiA2LjAgQWNjZXNzaWJpbGl0eVxuICovXG5cbi5zY3JlZW4tcmVhZGVyLXRleHQ6aG92ZXIsXG4uc2NyZWVuLXJlYWRlci10ZXh0OmZvY3VzIHtcblx0cmlnaHQ6IDVweDtcblx0bGVmdDogYXV0bztcbn1cblxuXG4vKipcbiAqIDcuMCBBbGlnbm1lbnRzXG4gKi9cblxuLmFsaWducmlnaHQge1xuXHRmbG9hdDogcmlnaHQ7XG59XG5cbi5hbGlnbmxlZnQge1xuXHRmbG9hdDogbGVmdDtcbn1cblxuLmFsaWduY2VudGVyIHtcblx0bWFyZ2luLXJpZ2h0OiBhdXRvO1xuXHRtYXJnaW4tbGVmdDogYXV0bztcbn1cblxuYmxvY2txdW90ZS5hbGlnbnJpZ2h0LFxuLndwLWNhcHRpb24uYWxpZ25yaWdodCxcbmltZy5hbGlnbnJpZ2h0IHtcblx0bWFyZ2luOiAwLjRlbSAwIDEuNmVtIDEuNmVtO1xufVxuXG5ibG9ja3F1b3RlLmFsaWdubGVmdCxcbi53cC1jYXB0aW9uLmFsaWdubGVmdCxcbmltZy5hbGlnbmxlZnQge1xuXHRtYXJnaW46IDAuNGVtIDEuNmVtIDEuNmVtIDA7XG59XG5cblxuLyoqXG4gKiA4LjAgSGVhZGVyXG4gKi9cblxuLnJ0cC1saXN0LXBvc3QgLmVudHJ5LWhlYWRlci5jb2x1bW4sIC5zaW5nbGUgLmVudHJ5LWhlYWRlci5jb2x1bW57XG5cdGZsb2F0OiByaWdodDtcbn1cblxuLnJ0cC1saXN0LXBvc3QgLmVudHJ5LWNvbnRlbnQuY29sdW1uLCAuc2luZ2xlIC5lbnRyeS1jb250ZW50LmNvbHVtbntcblx0ZmxvYXQ6IGxlZnQ7XG59XG5cbi8qKlxuICogOS4wIFdpZGdldHNcbiAqL1xuXG5cbi8qKlxuICogMTAuMCBDb250ZW50XG4gKi9cblxuLyoqXG4gKiAxMC4xIFBvc3RzIGFuZCBwYWdlc1xuICovXG5cbiNwcmltYXJ5e1xuXHRmbG9hdDogcmlnaHQ7XG59XG5cbiNzZWNvbmRhcnl7XG5cdGZsb2F0OiBsZWZ0O1xufVxuXG5cbi8qKlxuICogMTAuMiBDb21tZW50c1xuICovXG5cbi5ydHAtY29tbWVudC11c2VyLXByb2ZpbGV7XG5cdG1hcmdpbi1sZWZ0OiAyMHB4O1xufVxuXG4ucnRwLW1haW4tY29tbWVudHtcblxufVxuXG4ucnRwLWNvbW1lbnQtdXNlci1wcm9maWxlIGltZ3tcblx0ZmxvYXQ6IHJpZ2h0O1xufVxuXG4ucnRwLWNvbW1lbnQtbWV0YXtcblx0ZmxvYXQ6IHJpZ2h0O1xuXHRtYXJnaW4tcmlnaHQ6IDE1cHg7XG59XG5cbi5jb21tZW50LXJlc3BvbmQgLmZvcm0tc3VibWl0e1xuXHRmbG9hdDogcmlnaHQ7XG5cdG1hcmdpbi1yaWdodDogMDtcblx0bWFyZ2luLWxlZnQ6IDEuMjVyZW07XG59XG5cbi8qKkJ1ZGR5cHJlc3MqKi9cblxuI2J1ZGR5cHJlc3MgZGl2Lml0ZW0tbGlzdC10YWJzIHVsIGxpe1xuXHRtYXJnaW4tcmlnaHQ6IDA7XG5cdG1hcmdpbi1sZWZ0OiAxLjg3NXJlbTtcbn1cblxuLnJ0cC1jb3Zlci1oZWFkZXItbmF2IGxpe1xuXHRmbG9hdDogcmlnaHQ7XG5cdG1hcmdpbi1yaWdodDogMDtcblx0bWFyZ2luLWxlZnQ6IDEuODc1cmVtO1xufVxuXG4ucnRwLWNvdmVyLWhlYWRlci1hdmF0YXJ7XG5cdGZsb2F0OiByaWdodDtcblx0bWFyZ2luLXJpZ2h0OiAwO1xuXHRtYXJnaW4tbGVmdDogMTVweDtcbn1cblxuLnJ0cC1pdGVtLWhlYWRlci1yaWdodHtcblx0ZmxvYXQ6IHJpZ2h0O1xufVxuXG4iXX0= */

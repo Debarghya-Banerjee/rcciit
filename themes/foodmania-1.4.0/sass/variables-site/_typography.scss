@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'candlescript_demo_versionRg';
+    src: url('./fonts/candlescript_demo_version-webfont.eot');
+    src: url('./fonts/candlescript_demo_version-webfont.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/candlescript_demo_version-webfont.woff2') format('woff2'),
+		url('./fonts/candlescript_demo_version-webfont.woff') format('woff'),
+		url('./fonts/candlescript_demo_version-webfont.ttf') format('truetype'),
+		url('./fonts/candlescript_demo_version-webfont.svg#candlescript_demo_versionRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$font__main: sans-serif;
+$font__heading: 'candlescript_demo_versionRg';
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;

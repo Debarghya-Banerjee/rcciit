@@ -1,0 +1,711 @@
+// ***** Sidebar ***** //
+.rtp-sidebar-inner-wrapper {
+	padding-left: rem-calc(40);
+}
+
+.widget {
+	margin: 0 0 1.5em;
+	margin-bottom: 30px;
+	word-wrap: break-word;
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+
+	// Current Menu item highlight
+	.current-menu-item > a, .current_page_item > a {
+		color: $link-hover-color;
+	}
+
+	// Remove listing bottom margin
+	& > ul, & > ol {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	.email-subscription-container input[type="submit"] {
+		-webkit-border-radius: 0 $global-radius $global-radius 0;
+		border-radius: 0 $global-radius $global-radius 0;
+	}
+
+	select {
+		margin-bottom: rem-calc(15);
+		background: $white;
+	}
+
+	p {
+		font-size: inherit;
+	}
+}
+
+.rtp-site-footer {
+	.email-subscription-container p {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.email-subscription-container .email {
+		border-radius: $global-radius;
+		margin-bottom: rem-calc(10);
+	}
+
+	.widget .email-subscription-container input[type="submit"] {
+		display: none;
+	}
+
+	.social-icons li {
+		margin-right: rem-calc(17);
+	}
+}
+
+// ***** Calendar Widget ***** //
+.widget_calendar {
+	table {
+		font-size: rem-calc(14);
+		margin: rem-calc(0 0 4);
+		width: 100%;
+	}
+
+	th, td {
+		border: 1px solid $border-color;
+		color: $very-dark-gray;
+		text-align: center;
+	}
+
+	caption {
+		background: $border-color;
+		font-weight: bold;
+		line-height: 2.5em;
+	}
+}
+
+/* Archive Widget */
+.widget_archive {
+    select {
+        width: 100%;
+    }
+}
+
+/* Categories Widgets */
+.widget_categories {
+    select {
+        width: 100%;
+    }
+}
+
+/* Search widget. */
+.widget_search .search-submit {
+	display: none;
+}
+
+#today {
+	background-color: darken($base-background, 6%);
+	font-weight: 700;
+}
+
+// Calendar footer
+tfoot {
+	#prev {
+		border-right: 0;
+		text-align: left;
+	}
+
+	#next {
+		border-left: 0;
+		text-align: right;
+	}
+}
+
+#prev + .pad {
+	border-left: 0;
+	border-right: 0;
+}
+
+// ***** Tag Cloud Widget ***** //
+.tagcloud a {
+	line-height: 1;
+}
+
+.rtp-sidebar-section {
+	.widget {
+		background: $widget-bg;
+		padding: rem-calc(20);
+	}
+
+	.widget-title {
+		text-transform: uppercase;
+		font-size: rem-calc(22);
+		margin-top: 0;
+		margin-bottom: rem-calc(25);
+	}
+}
+
+/*==============================
+          BuddyPress
+===============================*/
+
+.widget_bp_core_members_widget.buddypress,
+.widget.widget_bp_groups_widget.buddypress {
+	div.item-options {
+		font-size: 0;
+
+		a {
+			background: $white;
+			color: $dark-gray;
+			text-transform: uppercase;
+			padding: 8px 2px;
+			font-size: rem-calc(10);
+			display: inline-block;
+			width: 25%;
+			text-align: center;
+
+			&.selected, &:hover {
+				text-decoration: none;
+				color: $white;
+				background: $theme-color;
+			}
+		}
+	}
+
+	.vcard {
+		border: none;
+		display: block;
+		margin: 20px 0;
+		padding: 0;
+		.item-avatar {
+			a.bp-tooltip {
+				position: relative;
+				&::after {
+					top: 16px;
+					left: 21px;
+				}
+			}
+		}
+	}
+
+	ul.item-list {
+		.item-avatar {
+			float: left;
+
+			img.avatar {
+				width: 43px;
+				height: 100%;
+				margin: 0 3px 0 0;
+
+				@include border-radius;
+			}
+		}
+	}
+
+	ul.item-list {
+		margin-top: rem-calc(20);
+	}
+
+	div.item {
+		width: calc(100% - 56px);
+
+		div.item-meta {
+			span.activity {
+				color: $dark-gray;
+				font-size: rem-calc(14);
+			}
+		}
+	}
+}
+
+.widget_bp_core_members_widget.buddypress {
+    div.item-options {
+        a {
+            width: 33.33%;
+        }
+    }
+}
+
+.widget.buddypress {
+	#groups-list, #members-list, #friends-list {
+		overflow: hidden;
+	}
+}
+
+.widget.widget_bp_core_recently_active_widget.buddypress {
+	div.item-avatar img.avatar {
+		width: 48px;
+		height: 48px;
+
+		@include border-radius;
+
+		margin: 5px;
+	}
+}
+
+//Search Widget
+
+.widget_display_search {
+	#bbp_search {
+		width: 90%;
+	}
+
+	input[type=submit] {
+		display: none;
+	}
+}
+
+/**Widget Login**/
+
+.bbp_widget_login {
+	fieldset {
+		border: none;
+	}
+
+	.bbp-login-form .bbp-submit-wrapper {
+		float: left;
+		margin-top: 25px;
+	}
+}
+
+.widget_display_stats {
+    dl {
+        background: $white;
+        text-align: center;
+        padding: rem-calc(20) rem-calc(10);
+
+        & > * {
+            display: inline-block;
+        }
+
+        dt {
+            text-align: left;
+            float: left;
+            width: 50%;
+
+            &:not( :last-child ) {
+                margin-bottom: 1rem;
+            }
+        }
+
+        dd {
+            margin: 0;
+            text-align: right;
+            float: right;
+            width: 50%;
+
+            &::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            &:not( :last-child ) {
+                margin-bottom: 1rem;
+            }
+        }
+
+        &::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+    }
+}
+
+.widget_bp_core_whos_online_widget {
+	div.item-avatar {
+		img.avatar {
+			@include border-radius;
+		}
+	}
+}
+
+.bbp_widget_login {
+	img.avatar {
+		@include border-radius;
+	}
+}
+
+.bbp_widget_login {
+	.button.logout-link {
+		@include button;
+
+		display: inline-block;
+		margin-top: rem-calc(15);
+	}
+}
+
+.widget_bp_core_login_widget {
+	.avatar {
+		@include border-radius;
+	}
+
+	.logout {
+		@include button;
+	}
+        input[type=text], input[type=password] {
+            width: 100%;
+        }
+        
+}
+
+/*==============================
+          rtMedia
+===============================*/
+
+.widget.RTMediaUploaderWidget {
+	.rtmedia-user-album-list {
+		max-width: 80%;
+	}
+}
+
+.RTMediaGalleryWidget {
+	.rtm-tabs-container .rtm-tabs {
+            &.rtm-tabs{
+                border-bottom: none;
+                background: #fff;
+            }
+		li.active, li:hover {
+			background: $theme-color;
+
+			a {
+				text-decoration: none;
+				color: $white;
+			}
+		}
+
+		li {
+			background: $white;
+			border: none;
+			width: 25%;
+			margin: 0px;
+			text-align: center;
+
+			a {
+				color: $dark-gray;
+				text-transform: uppercase;
+				padding: 0.5rem 0.5rem;
+				font-size: 10px;
+			}
+		}
+	}
+}
+
+/****** Search Widget *******/
+
+.widget_search {
+	.search-field {
+		width: calc(100% - 20px);
+	}
+}
+
+/****** Calender Widget *******/
+
+.widget_calendar {
+	#prev {
+		padding-left: rem-calc(5);
+	}
+
+	#next {
+		padding-right: rem-calc(5);
+	}
+}
+
+/**PAGES**/
+
+.widget_pages {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/*==============================
+          Footer Widgets
+===============================*/
+
+.rtp-footer-widgets {}
+
+/*==============================
+          LOGIN FORM
+===============================*/
+
+// Login Popup Model
+.rtp-login-popup-model {
+	border: 0;
+	border-radius: 2px;
+	box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1);
+	padding: 0;
+
+	.rtp-login-form-container {
+		padding: rem-calc(20);
+	}
+
+	.rtp-login-form-title {
+		background: $theme-color;
+		padding: rem-calc(8 20);
+		text-transform: uppercase;
+		color: $white;
+	}
+
+	.rtp-lost-pass {
+		float: right;
+		font-size: rem-calc(14);
+	}
+
+	.forgetmenot {
+		font-size: rem-calc(14);
+	}
+
+	.input {
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+	.rtp-wp-submit {
+		width: 100%;
+		margin-top: rem-calc(10);
+	}
+
+	.rtp-forgetmenot-content {
+		margin: rem-calc(10 0);
+	}
+
+	.rtp-register {
+		clear: both;
+	}
+
+	.rtp-close-reveal {
+		background: $white;
+		border-radius: 100%;
+		color: $very-dark-gray;
+		font-size: 22px;
+		font-weight: normal;
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+		right: 20px;
+		text-align: center;
+		top: 13px;
+	}
+
+	.wp-social-login-connect-with {
+		display: none;
+	}
+
+	.rtp-signin-title {
+		font-family: inherit;
+		font-size: 14px;
+		font-weight: bold;
+		line-height: 1;
+		margin: 0 0 20px;
+		text-align: center;
+	}
+
+	.forgetmenot {
+		input[type='checkbox'] {
+			float: left;
+			margin-right: 6px;
+			margin-top: 6px;
+		}
+	}
+
+	.rtp-register {
+		font-size: 13px;
+		margin: 10px -30px 0;
+		padding: 20px 30px;
+		text-align: center;
+	}
+
+	.error {
+		background-color: #fbe5e4;
+		border-left: 4px solid $bright-red;
+		padding: 0.625rem 0.9375rem;
+		text-shadow: 1px 0 0 $white;
+	}
+
+	.success {
+		background-color: #43AC6A;
+		border-left: 4px solid #215132;
+		padding: 0.625rem 0.9375rem;
+		text-shadow: 1px 0 0 $white;
+	}
+}
+
+/** widget_pages */
+
+.widget_pages {
+	a {
+		text-transform: uppercase;
+	}
+}
+
+/*==============================
+          Shortcodes
+===============================*/
+
+.food-shortcode {
+	font-size: rem-calc(14);
+	margin-bottom: rem-calc(15);
+	margin-top: 10px;
+
+	br {
+		display: none;
+	}
+
+	.dashicons {
+		margin-right: rem-calc(15);
+		background-color: $white;
+		border-radius: 5px;
+		display: inline-block;
+		color: $black;
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+		font-size: 17px;
+		float: left;
+	}
+}
+
+.food-shortcode.foodmania-icon {
+	display: inline-block;
+
+	.dashicons {
+		margin-right: rem-calc(6);
+	}
+}
+
+.widget.buddypress div.item-content, .widget.buddypress div.item-meta {
+	margin-left: 0px;
+}
+
+/*==============================
+          Food Mania Recent Post Widgets
+===============================*/
+
+.rtp_widget_recent_entries {
+    
+    .rtp-post-thump {
+        float: left;
+        margin-right: 10px;
+        
+        img {
+            width: 43px;
+            border-radius: 100%;
+            border: 3px solid #000;
+        }
+    }
+    
+    .rtp-post-desc.left-float {
+        float: left;
+        width: 60%;
+    }
+    
+    .rtp-post-desc {
+        .rtp-title {
+            margin: 0;
+        }
+        
+        .post-date {
+            color: #999;
+            font-size: .875rem;
+        }
+    }
+    
+    li {
+        
+        margin-bottom: 10px;
+        
+        &:after {
+            clear: both;
+            content: "";
+            display: table;
+        }
+    }
+}
+
+/****** Woocommerce Widgets *******/
+.woocommerce {
+    .widget_price_filter {
+        .price_slider_wrapper {
+            .ui-widget-content {
+                background-color: #fff;
+            }
+        }
+    }
+}
+
+
+/****** Buddypress user Friends *******/
+
+
+.widget.widget_bp_core_friends_widget {
+
+    div.item-options {
+        font-size: 0;
+
+        a {
+                background: $white;
+                color: $dark-gray;
+                text-transform: uppercase;
+                padding: 8px 2px;
+                font-size: rem-calc(11);
+                display: inline-block;
+                width: 33.33%;
+                text-align: center;
+
+                &.selected, &:hover {
+                        text-decoration: none;
+                        color: $white;
+                        background: $theme-color;
+                }
+        }
+    }
+    ul.item-list {
+        margin-top: rem-calc(20);
+        
+        .item-avatar {
+                float: left;
+
+                img.avatar {
+                        width: 43px;
+                        height: 100%;
+                        margin: 0 3px 0 0;
+
+                        @include border-radius;
+                }
+        }
+        
+        div.item {
+		width: calc(100% - 56px);
+
+		div.item-meta {
+			span.activity {
+				color: $dark-gray;
+				font-size: rem-calc(14);
+			}
+		}
+	}
+    }
+}
+
+/* BB Pres Login Widgets */
+.widget.bbp_widget_login {
+    input[type=text], input[type=password] {
+        width: 100%;
+    }
+}
+
+.widget_bp_core_login_widget .bp-login-widget-user-links {
+	margin-left: 0px;
+}

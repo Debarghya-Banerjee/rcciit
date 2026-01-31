@@ -1,0 +1,76 @@
+.rtp-site-footer {
+	background: #0e0e0e;
+	color: #ddd;
+	font-size: rem-calc(14);
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		color: $white;
+		text-decoration: none;
+
+		&:hover {
+			color: $theme-color;
+		}
+	}
+
+	li.current_page_item {
+		a {
+			color: $theme-color;
+		}
+	}
+
+	.rtp-site-title a {
+		color: $white;
+	}
+}
+
+.rtp-footer-widgets {
+	padding-top: rem-calc(50);
+	padding-bottom: rem-calc(50);
+
+	.widget-title {
+		color: $white;
+		text-transform: uppercase;
+		font-size: rem-calc(16);
+		font-weight: 400;
+		letter-spacing: 1px;
+	}
+}
+
+.rtp-site-info {
+	background: #1e1e1e;
+	padding: rem-calc(30) 0;
+
+	.rtp-left-part {
+		float: left;
+	}
+
+	.rtp-right-part.rtp-right-part {
+		float: right;
+		text-align: right;
+		margin-top: rem-calc(7);
+	}
+}
+
+// custom style
+.rtp-site-footer .rtp-footer-widgets aside:nth-child(4n + 1) {
+	clear: left;
+}
+
+.rtp-site-footer .rtp_social_warrp {
+	text-align: center;
+	margin-top: 10px;
+
+	li {
+		display: inline-block;
+
+		a {
+			margin: 0 5px;
+		}
+	}
+}

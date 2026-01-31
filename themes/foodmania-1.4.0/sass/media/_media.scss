@@ -1,0 +1,414 @@
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+.ac_results {
+  top: 584px !important;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+@import "captions";
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+@import "galleries";
+
+// custom style for media popup box-shadow:
+.mfp-wrap.mfp-gallery.mfp-close-btn-in.mfp-auto-cursor.mfp-img-mobile.mfp-ready {
+	// overide inline style
+	position: fixed !important;
+	top: 0 !important;
+	overflow: scroll;
+}
+
+.rtmedia-single-media.rtm-single-media {
+	padding-bottom: 20px;
+        margin-bottom: 5px;
+}
+
+.rtmedia-single-meta .rtmedia-item-actions {
+	button.rtmedia-action-buttons {
+		@include button;
+		border: 1px solid $theme-color;
+		&:hover, &:focus {
+			color: $theme-color !important;
+			border: 1px solid $theme-color !important;
+			background: #fff !important;
+		}
+	}
+}
+
+body .rtmedia-single-meta .rtm-media-single-comments {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+body .mfp-content #buddypress .rtm-lightbox-container {
+	.rtmedia-single-meta {
+		padding: 20px 20px 0;
+	}
+
+	.userprofile {
+		margin: 0 16px 1px 0;
+	}
+
+	.rtmedia-media-views {
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	.mfp-close,
+	.rtmedia-like {
+		background: transparent;
+	}
+
+	.rtmedia-actions.rtmedia-author-actions .rtmedia-like img {
+		display: none;
+	}
+}
+
+.bp-tooltip::after{
+    margin-top: 0;
+}
+
+body .has-text-field #wp-link .query-results{
+    top: 230px;
+}
+
+#buddypress a.acomment-reply span{
+    display: none;
+}
+
+#rtm-gallery-title-container {
+	p{
+		margin-top: 5px;
+	}
+
+	.rtm-media-options {
+		float: right;
+		margin: 20px 0 0;
+	}
+}
+
+body .mfp-content .rtmedia-popup #rtm-modal-container {
+	button#rtmedia_create_new_album {
+		border: 1px solid $theme-color;
+		&:hover, &:focus {
+			color: $theme-color;
+			border: 1px solid $theme-color;
+			background: #fff;
+		}
+	}
+}
+.rtmedia-container.rtmedia-container label {
+	margin-right: 0px;
+}
+
+#buddypress ul.rtmedia-list li {
+	//width: 100%;
+}
+
+.rtmedia-activity-container .mejs-container.mejs-video.mejs-video {
+	max-width: 480px;
+	max-height: 340px;
+}
+
+body #buddypress .rtm-uploader-main-wrapper .rtm-sc-import-tab-content button{
+        background: none;
+        padding:0;
+}
+
+#buddypress .rtmedia-list-document th{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.rtmedia-item-actions.rtm-single-actions.rtm-item-actions{
+    margin-bottom: 5px;
+}
+
+.rtmedia-item-comments {
+	button.rtmedia-comment-media-upload {
+		@include button;
+		padding: 5px 8px 5px 8px;
+		border: 1px solid $theme-color;
+		&:hover, &:focus {
+			color: $theme-color !important;
+			border: 1px solid $theme-color !important;
+			background: #fff !important;
+		}
+	}
+}
+
+.rtmedia-single-container .rtmedia-pro-average-rating{
+    line-height: 20px;
+}
+
+#buddypress {
+
+	#your-profile .submit #submit,input[type="submit"] {
+		margin-top: rem-calc(6);
+	}
+
+    .group-button{
+        margin-top: 5px;
+    }
+	.rtmedia-editor-main {
+		.rtmedia-editor-attributes .rtmedia-edit-attr-select select {
+			min-width: 150px;
+		}
+
+		.rtmedia-editor-buttons {
+			input {
+				margin-right: 5px;
+			}
+
+			a {
+				border: none;
+				text-transform: uppercase;
+				font-size: 14px;
+				padding: 5px 20px 5px 20px;
+				border: 2px solid #deb25e !important;
+				font-family: sans-serif;
+
+				&:hover, &:focus {
+					color: #deb25e !important;
+					border: 2px solid #deb25e !important;
+					background: #fff !important;
+				}
+			}
+		}
+	}
+
+	.rtmedia-container {
+		label {
+			float: none;
+		}
+
+		select.rtm-form-select,
+		select.rtmedia-merge-user-album-list {
+			height: 35px;
+		}
+
+		.rtmedia-edit-attr-select {
+			margin-bottom: 5px;
+
+			label.rtm-attr-label {
+				float: left;
+			}
+		}
+	}
+
+	div.activity-comments ul li > ul {
+		margin-left: 0px;
+	}
+        
+        .rt_media_comment_submit.rt_media_comment_submit,input[type="submit"]{
+            color: #fff !important;
+            background: #deb25e !important;
+			border: 2px solid #deb25e !important;
+            &:hover, &:focus {
+				color: #deb25e !important;
+				border: 2px solid #deb25e !important;
+				background: #fff !important;
+            }
+        }
+
+	.rt_media_comment_submit.rt_media_comment_submit {
+		color: $theme-color;
+		padding: 4px 5px 3px 5px;
+		font-size: 12px;
+	}
+
+	.rtmedia-media-description.rtm-more p {
+		margin: 0px;
+	}
+
+	.rtmedia-media-name {
+		margin-right: 5px;
+	}
+
+	.rtmedia-album-name {
+		float: left;
+		max-width: 193px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
+
+		span {
+			margin-right: 5px;
+		}
+	}
+
+	.rtmedia-media-edit {
+		.rtmedia-image-editor-cotnainer {
+			.imgedit-panel-content {
+				width: 60%;
+
+				.imgedit-menu button {
+					margin: 0 7px;
+					padding: 7px 11px;
+					display: inline-block;
+					border-radius: 3px;
+				}
+			}
+
+			.imgedit-settings {
+				float: right;
+				width: 35%;
+
+				.imgedit-group {
+					.imgedit-group-top {
+						h2 {
+							float: left;
+							font-size: 17px;
+							margin-top: 0;
+						}
+
+						.imgedit-help-toggle {
+							float: left;
+							line-height: 25px;
+							background: transparent;
+							font-size: 19px;
+							padding: 0;
+							margin-left: 5px;
+						}
+
+						p,
+						.imgedit-help {
+							clear: both;
+						}
+					}
+
+					.imgedit-crop-ratio {
+						clear: both;
+					}
+				}
+			}
+		}
+	}
+}
+
+.rtmedia-container{
+	.media_search.media_search {
+        padding: 0;
+        margin: -4px 16px 0 15px;
+
+		.media_search_input {
+			width: 180px;
+			font-size: 14px;
+		}
+
+		button.search_option {
+			padding: 5px 5px 5px 5px;
+			&:hover {
+				padding: 5px 5px 5px 5px;
+			}
+	
+			i.dashicons-search {
+				padding-left: 2px;
+			}
+		}
+    }
+}
+.media #content #cover-image-container{
+        display: none;
+}
+.widget .rtmedia-upload-input.rtmedia-file{
+        margin-left: 5px;
+}
+.tagbox li.bp-media-tag-list-item a img{
+        margin-right: 4px;
+        margin-top: 5px;
+        float: left;
+}
+
+#rtmedia-single-media-container{
+    .next-pagination,.previous-pagination{
+        margin-top: 24px;
+        a{
+                border: none;
+                background: #deb25e;
+                color: #fff;
+                padding: 6.5px 1.25rem;
+                text-transform: uppercase;
+                font-size: .875rem;
+                transition: .5s;
+        }
+   }
+   .next-pagination{
+       margin-left: 10px;
+   }
+   .previous-pagination{
+       margin-right: 10px;
+   }
+}
+
+.site .rtmedia-editor-attributes .rtm-attr-edit-heading,.rtmedia-container .rtmedia-media-tags-head,body .rtmedia-container .rtmedia-editor-attributes .rtm-attr-edit-heading{
+    background-color: #deb25e;
+}
+
+.rtp-member-profile-header .rtp-item-buttons .generic-button{
+        display: inline-block;
+        margin: 0 5px;
+        a{
+                border: none;
+                background: #deb25e;
+                color: #fff;
+                padding: 5px!important;
+                text-transform: uppercase;
+                font-size: .875rem;
+                transition: .5s;
+        }
+
+        button{
+                border: none;
+				border-radius: 3px;
+                background: #deb25e;
+                color: #fff;
+                padding: 3px!important;
+                text-transform: uppercase;
+                font-size: .875rem;
+                transition: .5s;
+        }
+}
+.rtmedia-comments-container .rtm-comment-list.rtm-comment-list{
+        height: auto;
+}
+
+.rtmedia-gallery-item-actions .dashicons{
+    top: 4px;
+}
+
+.bp-legacy .bp-tooltip::after {
+    background: none;
+    border: 0;
+    box-shadow: none;
+}
+
+#bbpress-forums fieldset.bbp-form {
+        width: 98%;
+        display: contents;
+}
+
+#buddypress #bbp-edit-group-forum{
+    margin-top: 3px;
+    float: left;
+    margin-right: 6px;
+}

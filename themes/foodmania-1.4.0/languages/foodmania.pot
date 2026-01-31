@@ -1,0 +1,1241 @@
+# <!=Copyright (C) 2022
+# This file is distributed under the same license as the  package.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://community.rtcamp.com/c/premium-themes\n"
+"POT-Creation-Date: 2022-02-15 12:25:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: rtCamp <support@rtcamp.com>\n"
+"Language-Team: rtCampers <support@rtcamp.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater-admin.php:309
+msgid "Error"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater-admin.php:339
+#: admin/lib/edd-license/theme-updater-admin.php:378
+#: admin/lib/edd-license/theme-updater-admin.php:436
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater-admin.php:350
+#. translators: %s is date
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater-admin.php:356
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater-admin.php:360
+msgid "Invalid license."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater-admin.php:365
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater-admin.php:370
+#. translators: %s is user name
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater-admin.php:374
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater-admin.php:662
+msgid "activate theme"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:32
+msgid "Theme License"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:33
+msgid "Enter your theme license key."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:34
+msgid "License Key"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:35
+msgid "License Action"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:36
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:37
+msgid "Activate License"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:38
+#: admin/lib/edd-license/theme-updater.php:54
+msgid "License status is unknown."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:39
+msgid "Renew?"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:40
+msgid "unlimited"
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:41
+msgid "License key is active."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:43
+#. translators: %s is date
+msgid "Expires %s."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:44
+msgid "Lifetime License."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:46
+#. translators: %s is count
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:48
+#. translators: %s is key
+msgid "License key expired %s."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:49
+msgid "License key has expired."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:50
+msgid "License keys do not match."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:51
+msgid "License is inactive."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:52
+msgid "License key is disabled."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:53
+msgid "Site is inactive."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:55
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: admin/lib/edd-license/theme-updater.php:57
+#. translators: %1$s is value %2$s is value %3$s is link %4$s is title %5$s is
+#. link %6$s is link
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" "
+"class=\"thickbox\" title=\"%4$s\">Check out what's new</a> or <a "
+"href=\"%5$s\"%6$s>update now</a>."
+msgstr ""
+
+#: buddypress/groups/groups-loop.php:100
+msgid "There were no groups found."
+msgstr ""
+
+#: buddypress/groups/index.php:23
+msgid "Groups Directory"
+msgstr ""
+
+#: buddypress/groups/index.php:27
+msgid "Create a Group"
+msgstr ""
+
+#: buddypress/groups/index.php:37
+#. translators: %s: group count
+msgid "All Groups <span>%s</span> "
+msgstr ""
+
+#: buddypress/groups/index.php:47
+#. translators: %s: group count
+msgid "My Groups <span>%s</span> "
+msgstr ""
+
+#: buddypress/groups/index.php:65
+msgid "Last Active "
+msgstr ""
+
+#: buddypress/groups/index.php:66
+msgid "Most Members "
+msgstr ""
+
+#: buddypress/groups/index.php:67
+msgid "Newly Created "
+msgstr ""
+
+#: buddypress/groups/index.php:72
+msgid "Alphabetical "
+msgstr ""
+
+#: buddypress/groups/single/home.php:35
+msgid "Group primary navigation"
+msgstr ""
+
+#: buddypress/members/members-loop.php:41
+msgid "Friends"
+msgstr ""
+
+#: buddypress/members/members-loop.php:45
+msgid "Portfolio"
+msgstr ""
+
+#: buddypress/members/members-loop.php:87
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: buddypress/members/single/activity.php:24
+msgid "&mdash; Everything &mdash;"
+msgstr ""
+
+#: comments.php:45
+#. translators: 1. is comment date, 2. is comment time
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: comments.php:56
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:71
+msgid "Reply"
+msgstr ""
+
+#: comments.php:80 inc/template-tags.php:71
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:442
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:528
+#: templates/content-page.php:27
+msgid "Edit"
+msgstr ""
+
+#: comments.php:102
+#. translators: %s is comments number
+msgid "Comments (%s)"
+msgstr ""
+
+#: comments.php:105
+#. translators: %s is comments number
+msgid "Comments %s"
+msgstr ""
+
+#: comments.php:134
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:143 lib/admin/rtp-extensions/rtp-support-page.php:178
+msgid "Name"
+msgstr ""
+
+#: comments.php:145 lib/admin/rtp-extensions/rtp-support-page.php:188
+msgid "Email"
+msgstr ""
+
+#: comments.php:147 lib/admin/rtp-extensions/rtp-support-page.php:198
+msgid "Website"
+msgstr ""
+
+#: comments.php:158 inc/template-tags.php:67
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:149
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:246
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:257
+msgid "Footer"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/hooks.php:89 lib/admin/customizer/class.customizer-admin.php:1194
+msgid "Facebook"
+msgstr ""
+
+#: inc/hooks.php:96 lib/admin/customizer/class.customizer-admin.php:1214
+msgid "Twitter"
+msgstr ""
+
+#: inc/hooks.php:136
+#. translators: %s is text
+msgid "https://rtmedia.io/products/foodmania/"
+msgstr ""
+
+#: inc/hooks.php:136
+msgid "Powered by %s"
+msgstr ""
+
+#: inc/hooks.php:236 lib/admin/customizer/class.customizer-admin.php:1225
+#: templates/login-form.php:10
+#. translators: %1$s is attribute %2$s is attribute
+msgid "Login"
+msgstr ""
+
+#: inc/hooks.php:252
+msgid "OR"
+msgstr ""
+
+#: inc/hooks.php:253
+msgid "Sign in with"
+msgstr ""
+
+#: inc/template-tags.php:51 inc/template-tags.php:58
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:54
+#. translators: %s is list
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:61
+#. translators: %s is list
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:67
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:67
+msgid "% Comments"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Home Template"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:99
+msgid "Section 1 (Slider)"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:103
+#. translators: %s: Site Url.
+msgid "Click <a target=\"_blank\" href=\"%s\">here</a> to change slider settings."
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:125
+#: lib/admin/customizer/class.customizer-admin.php:162
+#: lib/admin/customizer/class.customizer-admin.php:308
+#: lib/admin/customizer/class.customizer-admin.php:472
+#: lib/admin/customizer/class.customizer-admin.php:596
+msgid "Display Section"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:139
+msgid "Section 2 (About Us)"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:183
+#: lib/admin/customizer/class.customizer-admin.php:329
+#: lib/admin/customizer/class.customizer-admin.php:493
+#: lib/admin/customizer/class.customizer-admin.php:617
+msgid "Section Position"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:188
+#: lib/admin/customizer/class.customizer-admin.php:334
+#: lib/admin/customizer/class.customizer-admin.php:498
+#: lib/admin/customizer/class.customizer-admin.php:622
+msgid "Choose a unique position"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:205
+msgid "Select Page"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:226
+#: lib/admin/customizer/class.customizer-admin.php:392
+#: lib/admin/customizer/class.customizer-admin.php:535
+#: lib/admin/customizer/class.customizer-admin.php:659
+msgid "Description"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:248
+msgid "Thumbnail 1"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:251
+#: lib/admin/customizer/class.customizer-admin.php:274
+msgid "Size should be 280 x 350px"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:271
+msgid "Thumbnail 2"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:285
+msgid "Section 3 (Latest Recipies)"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:351
+msgid "Select Category"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:372
+#: lib/admin/customizer/class.customizer-admin.php:515
+#: lib/admin/customizer/class.customizer-admin.php:639
+msgid "Title"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:412
+#: lib/admin/customizer/class.customizer-admin.php:699
+msgid "Link Text"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:416
+msgid "Will be visible when there are more than 3 posts available in selected cat."
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:435
+#: lib/admin/customizer/class.customizer-admin.php:721
+msgid "Background Image"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:438
+msgid "Size should be 1408x800px"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:449
+msgid "Section 4 (Featured Memebers)"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:452
+msgid ""
+"This is Buddypress specific section. If you dont have Buddypress plugin "
+"installed you should hide this section."
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:555
+msgid "Member Type"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:573
+msgid "Section 5 (Like What You See)"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:679
+msgid "Link"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:724
+msgid "Size should be 1408 x 800px"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:737
+msgid "Blog"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:740
+msgid "Will show on blog page."
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:757
+msgid "Excerpt Length"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:768
+#: lib/custom-functions.php:228 templates/home-section-2.php:51
+msgid "Read More"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:777
+msgid "Read More Text"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:797
+msgid "Show post author"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:817
+msgid "Show post date"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:837
+msgid "Show post categories"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:857
+msgid "Show post tags"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:877
+msgid "Show comment in meta"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:904
+msgid "Link Color"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:929
+msgid "Special Font Color"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:943
+msgid "Font"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:945
+msgid "Will show on whole site"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:962
+msgid "Special Font"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:982
+msgid "Special Font Variant"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1002
+msgid "Special Font Subset"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1023
+msgid "Body Font"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1043
+msgid "Body Font Variant"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1063
+msgid "Body Font Subset"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1078
+msgid "Copyright"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1080
+msgid "Will override the footer copyright text"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1097
+msgid "Copyright Text"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1113
+msgid "Advanced Settings"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1121
+msgid "Custom CSS"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1124
+msgid "Do not use style tag"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1142
+msgid "Write Custom CSS"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1153
+msgid "Social"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1156
+msgid "Show social icon in footer"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1174
+msgid "Display Social "
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1228
+msgid "Show or hide login in menu"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1246
+msgid "Display Login Tab"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1266
+msgid "Login Method"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1271
+msgid "Popup"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1272
+msgid "WordPress Login Page"
+msgstr ""
+
+#: lib/admin/customizer/class.customizer-admin.php:1335
+msgid "Number not only once is invalid"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:22
+msgid "Standard Fonts"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:25
+msgid "Theme Default"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:33
+msgid "Google Fonts"
+msgstr ""
+
+#: lib/admin/meta-widgets/meta-boxes.php:51
+msgid "Add Page Description"
+msgstr ""
+
+#: lib/admin/meta-widgets/meta-boxes.php:60
+msgid "Banner Image"
+msgstr ""
+
+#: lib/admin/meta-widgets/meta-templates/rtp-foodmania-banner-description.php:11
+msgid "Will show below the page title."
+msgstr ""
+
+#: lib/admin/meta-widgets/meta-templates/rtp-foodmania-banner-image.php:24
+msgid "Set banner image"
+msgstr ""
+
+#: lib/admin/meta-widgets/meta-templates/rtp-foodmania-banner-image.php:28
+msgid "Remove banner image"
+msgstr ""
+
+#: lib/admin/meta-widgets/rtp-widgets.php:20
+msgid "foodmania site&#8217;s most recent Posts."
+msgstr ""
+
+#: lib/admin/meta-widgets/rtp-widgets.php:22
+msgid "foodmania Recent Posts"
+msgstr ""
+
+#: lib/admin/meta-widgets/rtp-widgets.php:59
+msgid "Recent Posts"
+msgstr ""
+
+#: lib/admin/meta-widgets/rtp-widgets.php:190
+msgid "Title:"
+msgstr ""
+
+#: lib/admin/meta-widgets/rtp-widgets.php:193
+msgid "Number of posts to show:"
+msgstr ""
+
+#: lib/admin/meta-widgets/rtp-widgets.php:197
+msgid "Display post date?"
+msgstr ""
+
+#: lib/admin/rtp-admin.php:74
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:241
+msgid "Plugins"
+msgstr ""
+
+#: lib/admin/rtp-admin.php:79
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:242
+msgid "Support"
+msgstr ""
+
+#: lib/admin/rtp-admin.php:84 lib/admin/rtp-admin.php:150
+#: lib/admin/rtp-extensions/rtp-support-page.php:414
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:243
+msgid "Debug Info"
+msgstr ""
+
+#: lib/admin/rtp-admin.php:101
+msgid "Suggested Plugins for Foodmania"
+msgstr ""
+
+#: lib/admin/rtp-admin.php:116
+msgid "Foodmania Support"
+msgstr ""
+
+#: lib/admin/rtp-admin.php:117
+msgid "Create a ticket"
+msgstr ""
+
+#: lib/admin/rtp-admin.php:132
+msgid "Foodmania Theme Licence Key"
+msgstr ""
+
+#: lib/admin/rtp-admin.php:133
+msgid "Enter Licence Key, save and activate it."
+msgstr ""
+
+#: lib/admin/rtp-admin.php:151
+msgid "We may ask you to provide this information for debugging purposes."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:214
+msgid "ERROR: Data not sufficient."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:224
+msgid "ERROR: Nonce mismatch."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:233
+msgid "ERROR: Plugin not in support plugins list."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:302
+#. translators: %s: plugin name.
+msgid "ERROR: Failed to install plugin %s"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:326
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:406
+msgid "Please ensure the file system is writable"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:337
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:415
+#. translators: %s: error message.
+msgid "ERROR: Failed to install plugin: %s"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:361
+msgid "ERROR: No slug was passed to the AJAX callback."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:369
+msgid "ERROR: You lack permissions to install and/or activate plugins."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:386
+#. translators: %s: error message.
+msgid "ERROR: Error fetching plugin information: %s"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:439
+msgid "Plugin"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:440
+msgid "Status"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:441
+msgid "Action"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:452
+msgid "Active"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:455
+msgid "Inactive"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:458
+msgid "Not Installed"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:477
+msgid "Deactivate"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:482
+msgid "Activate"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:486
+#: lib/admin/rtp-slider/view/slide-template.php:59
+msgid "Delete"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:492
+msgid "Install"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-plugin-support.php:496
+msgid "Buy Now"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:75
+msgid "by"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:75
+msgid "version"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:208
+msgid "Phone"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:217
+msgid "Subject"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:227
+msgid "Details"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:252
+msgid "Additional Information"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:256
+msgid "Your WP Admin Login:"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:265
+msgid "Your WP Admin password:"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:275
+msgid "Your SSH / FTP host:"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:285
+msgid "Your SSH / FTP login:"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:295
+msgid "Your SSH / FTP password:"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:310
+msgid "Submit"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:342
+msgid "foodmania Premium Support Request from"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:345
+msgid "foodmania New Feature Request from"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:348
+msgid "foodmania Bug Report from"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:351
+msgid "foodmania Contact from"
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:442
+msgid "Thank you for your Feedback/Suggestion."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:444
+msgid "Thank you for posting your support request."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:445
+msgid "We will get back to you shortly."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:452
+msgid "Your server failed to send an email."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:453
+msgid "Kindly contact your server support to fix this."
+msgstr ""
+
+#: lib/admin/rtp-extensions/rtp-support-page.php:457
+#. translators: %s: url to support.
+msgid "You can alternatively create a support request <a href=\"%s\">here</a>"
+msgstr ""
+
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:42
+msgid "Slider"
+msgstr ""
+
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:76
+msgid "Add Slides"
+msgstr ""
+
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:109
+msgid "Slide "
+msgstr ""
+
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:215
+#: lib/admin/rtp-slider/view/slide-field.php:21
+#: lib/admin/rtp-slider/view/slide-template.php:39
+msgid "Choose Slider Image"
+msgstr ""
+
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:216
+msgid "Are you sure you want to delete the slide?"
+msgstr ""
+
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:217
+msgid "One of your slide does not have image."
+msgstr ""
+
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:218
+msgid "One of your slide does not have title"
+msgstr ""
+
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:240
+#: lib/admin/rtp-slider/view/admin-page.php:16
+msgid "Slider Settings"
+msgstr ""
+
+#: lib/admin/rtp-slider/class.rtcamp-slider-admin.php:244
+msgid "Theme Licence"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/admin-page.php:26
+msgid "Add New"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/admin-page.php:27
+msgid "Save Changes"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-field.php:19
+#: lib/admin/rtp-slider/view/slide-template.php:36
+msgid "Choose Image"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-field.php:22
+#: lib/admin/rtp-slider/view/slide-template.php:40
+msgid "Remove"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-field.php:25
+#: lib/admin/rtp-slider/view/slide-template.php:43
+msgid "Slide Title"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-field.php:29
+#: lib/admin/rtp-slider/view/slide-template.php:48
+msgid "Slide Content"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-field.php:33
+msgid "Slide Link"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-template.php:34
+msgid "Choose 1408x800px Image for best results."
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-template.php:45
+msgid "Enter Title"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-template.php:50
+msgid "Enter some content"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-template.php:53
+msgid "Slider Link"
+msgstr ""
+
+#: lib/admin/rtp-slider/view/slide-template.php:55
+msgid "Enter Slide Link"
+msgstr ""
+
+#: lib/buddypress.php:190
+msgid "Settings"
+msgstr ""
+
+#: lib/buddypress.php:191
+msgid "Activity"
+msgstr ""
+
+#: lib/buddypress.php:192
+msgid "Profile"
+msgstr ""
+
+#: lib/buddypress.php:193
+msgid "Groups"
+msgstr ""
+
+#: lib/buddypress.php:194
+msgid "Logout"
+msgstr ""
+
+#: lib/buddypress.php:299
+msgid "Change Cover"
+msgstr ""
+
+#: lib/buddypress.php:377
+msgid "Group Admins"
+msgstr ""
+
+#: lib/buddypress.php:395
+msgid "Group Mods"
+msgstr ""
+
+#: lib/buddypress.php:465
+msgid "Edit profile picture"
+msgstr ""
+
+#: lib/buddypress.php:545
+#. translators: %s Last active time
+msgid "active %s"
+msgstr ""
+
+#: lib/custom-functions.php:43
+msgid "Posts by: "
+msgstr ""
+
+#: lib/custom-functions.php:47
+msgid "Archive"
+msgstr ""
+
+#: lib/custom-functions.php:50
+msgid "404 Page"
+msgstr ""
+
+#: lib/custom-functions.php:52
+msgid "Search Results"
+msgstr ""
+
+#: lib/custom-functions.php:147
+#. Translators: %1$s for datetime %2$s for the time %3$s for the time
+msgid ""
+"<time class=\"published date updated\" datetime=\"%1$s\"><span "
+"class=\"date-day\">%2$s</span><span class=\"date-month\" "
+">%3$s</span></time> "
+msgstr ""
+
+#: lib/custom-functions.php:157
+#. Translators: %1$s for author posts url %2$s for the title in the attribute
+#. %3$s for the author of the post
+msgid ""
+"<span class=\"rtp-post-author-prefix rtp-meta-title\">Author</span> <span "
+"class=\"vcard author\"><a class=\"fn\" href=\"%1$s\" "
+"title=\"%2$s\">%3$s</a></span> "
+msgstr ""
+
+#: lib/custom-functions.php:157
+msgid "Posts by %s"
+msgstr ""
+
+#: lib/custom-functions.php:165
+msgid "Comments"
+msgstr ""
+
+#: lib/custom-functions.php:177
+msgid "Categories"
+msgstr ""
+
+#: lib/custom-functions.php:189
+msgid "Tags"
+msgstr ""
+
+#: lib/custom-functions.php:253
+msgid "Previous Post"
+msgstr ""
+
+#: lib/custom-functions.php:259
+msgid "Next Post"
+msgstr ""
+
+#: lib/custom-functions.php:278 templates/content-page.php:19
+#: templates/content-search.php:48 templates/content-single.php:40
+#: templates/content.php:48
+msgid "Pages:"
+msgstr ""
+
+#: lib/custom-functions.php:424
+msgid "Comment navigation"
+msgstr ""
+
+#: lib/custom-functions.php:427
+msgid "Older Comments"
+msgstr ""
+
+#: lib/custom-functions.php:431
+msgid "Newer Comments"
+msgstr ""
+
+#: lib/custom-woocommerce.php:99
+msgid "Total: "
+msgstr ""
+
+#: lib/custom-woocommerce.php:103
+msgid "View Cart"
+msgstr ""
+
+#: lib/custom-woocommerce.php:104
+msgid "Checkout"
+msgstr ""
+
+#: lib/custom-woocommerce.php:109
+msgid "No products in the shopping cart."
+msgstr ""
+
+#: lib/custom-woocommerce.php:144
+msgid "Quantity:"
+msgstr ""
+
+#: lib/custom-woocommerce.php:159
+msgid "Remove this item"
+msgstr ""
+
+#: lib/shortcodes.php:94
+msgid "Email Us"
+msgstr ""
+
+#: search.php:24
+#. translators: %s is search term
+msgid "Search Results for: %s"
+msgstr ""
+
+#: templates/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/content-none.php:24
+#. translators: 1. link
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/content-none.php:31
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/content-none.php:37
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/content-search.php:41 templates/content.php:39
+#. translators: %s: Name of current post
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: templates/home-section-4.php:63
+msgid "There were no members found."
+msgstr ""
+
+#: templates/home-section-4.php:76
+msgid "View All Members"
+msgstr ""
+
+#: templates/login-form.php:19
+msgid "Username"
+msgstr ""
+
+#: templates/login-form.php:20
+msgid "Password"
+msgstr ""
+
+#: templates/login-form.php:23
+msgid "Remember Me"
+msgstr ""
+
+#: templates/login-form.php:25
+msgid "Lost Password?"
+msgstr ""
+
+#: templates/login-form.php:28
+msgid "Log In"
+msgstr ""
+
+#: templates/login-form.php:37
+msgid "Don't have an account? "
+msgstr ""
+
+#: templates/login-form.php:41
+#. translators: %s is sign-up page url
+msgid "Register for a new account"
+msgstr ""
+
+#: templates/login-form.php:41
+msgid "Register"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Template"
+msgstr ""
+
+#: inc/template-tags.php:28
+#. translators: %s is date
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:34
+#. translators: %s is author
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:28
+msgctxt "font style"
+msgid "candlescript"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:212
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:216
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: lib/admin/customizer/extensions/fonts.php:220
+msgctxt "font style"
+msgid "Monospaced"
+msgstr ""
+
+#: lib/custom-functions.php:167
+msgctxt "comments number"
+msgid "0 Comment"
+msgstr ""
+
+#: lib/custom-functions.php:167
+msgctxt "comments number"
+msgid "<span>1</span> Comment"
+msgstr ""
+
+#: lib/custom-functions.php:167
+msgctxt "comments number"
+msgid "<span>%</span> Comments"
+msgstr ""

@@ -1,0 +1,58 @@
+// ***** Constant Variables ***** //
+$rtp-base-10: 10px;
+$black: #000000;
+$white: #ffffff;
+$gray: #aaaaaa;
+$very-dark-gray: #666666;
+$dark-gray: #999999;
+$widget-bg: #fafafa;
+$theme-color: #deb25e;
+
+/* This is the default theme color */
+$dark-blue: #21759b;
+$very-dark-gray: #4c4c4c;
+$bright-red: #dd3d36;
+$border-field: #e5e5e5;
+
+// ***** FONTS ***** //
+$heading-font: "Cedarville Cursive", cursive;
+$primary-font: "Source Sans Pro", sans-serif;
+
+// ***** Dynamic Variables ***** //
+
+// ***** Borders ***** //
+$border-color: #DDDDDD;
+$sec-border-color: #CCCCCC;
+
+// ***** Backgrounds ***** //
+$base-background: $white;
+
+// ***** Links ***** //
+$link-color: $theme-color;
+$link-hover-color: $black;
+
+// ***** Secondary Links ***** //
+$secondary-link-color: $very-dark-gray;
+$secondary-link-hover-color: $theme-color;
+
+// ***** Optimal Typography for 16px Font. Ref. http://pearsonified.com/typography/ ***** //
+$rtp-base-line-height: rem-calc(28);
+
+// rem-calc(28)
+$rtp-base-spacing: rem-calc(28);
+
+// This will same as line height
+
+// ***** Form Elements ***** //
+$form-input-text: unquote('input[type="text"], input[type="password"], input[type="search"], input[type="email"], input[type="tel"], input[type="url"]');
+$form-input-buttons: unquote('input[type="submit"], input[type="reset"], input[type="button"], button');
+$form-input-dates: unquote('input[type^="date"], input[type="month"], input[type="week"], input[type="time"]');
+$form-input-radio: unquote('input[type="radio"], input[type="checkbox"]');
+$form-input-not-radio: unquote('input:not([type="radio"]):not([type="checkbox"])');
+
+// ***** Messages Colors ***** //
+$color-notice: #BBBBBB;
+$color-info: #2EA2CC;
+$color-warning: #FFBA00;
+$color-success: #7AD03A;
+$color-error: #dd3d36;

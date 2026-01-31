@@ -1,0 +1,127 @@
+/*!
+ * Admin CSS
+ */
+/* Utility Classes */
+.show {
+	display: block;
+}
+
+.hide, .hidden {
+	display: none;
+}
+
+.clear {
+	clear: both;
+	content: '\0020';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+	width: 0;
+}
+
+/* The Magnificent "Clear" fix */
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Plugin support */
+.rtp-manage-plugin a {
+	text-decoration: none;
+}
+
+.rtp-manage-plugin .active {
+	color: green;
+}
+
+.rtp-manage-plugin .inactive {
+	color: orange;
+}
+
+.rtp-manage-plugin .not-installed {
+	color: red;
+}
+
+.rtp-manage-plugin th {
+	font-weight: 700;
+}
+
+.rtp-manage-plugin .form-table th, .rtp-manage-plugin .form-table td {
+	border-bottom: 1px solid #DDDDDD;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.rtp-manage-plugin .form-table td.last-child {
+	border: none;
+}
+
+#poststuff tr td {
+	padding: 10px;
+}
+
+.rtp-ajax-loder {
+	margin: -2px 3px 0 6px;
+	position: relative;
+	top: 3px;
+	width: 15px;
+	height: 15px;
+}
+
+.rtp-support-form {
+	list-style: none;
+}
+
+.rtp-support-form li {
+	padding-bottom: 15px;
+}
+
+.rtp-support-form label {
+	float: left;
+	line-height: 2;
+	width: 12%;
+}
+
+.rtp-support-form input[type=text],
+.rtp-support-form textarea {
+	width: 40%;
+}
+
+.rtp-support-form textarea {
+	height: 80px;
+}
+
+.rtp-button-cotainer {
+	padding-left: 12%;
+}
+
+#rtp-debug-info {
+	background: white;
+	border: 1px solid #e5e5e5;
+	padding: 15px;
+}
+
+#rtp-debug-info th, #rtp-debug-info td {
+	font-size: 12px;
+	padding: 8px !important;
+}
+
+/** NEW FOOMANIA CSS */
+.rtp-license-settings#poststuff {
+	padding: 20px;
+}
+
+.rtp-admin-page .dashicons {
+	margin-right: 5px;
+	margin-top: 4px;
+}
+
+.foodmania-license-status-deactivated {
+	color: red;
+}
+
+.foodmania-license-status-activated {
+	color: green;
+}

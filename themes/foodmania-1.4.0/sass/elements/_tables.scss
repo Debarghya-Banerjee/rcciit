@@ -1,0 +1,31 @@
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+/* This CSS add proper alignment for the nouveau template email notification setting table  */
+.site #buddypress {
+
+	table.notification-settings {
+		margin-bottom: 20px;
+		text-align: left;
+	}
+
+	table.notification-settings td:first-child,
+	table.notification-settings th.icon,
+	table.notifications td:first-child,
+	table.notifications th.icon {
+		display: none;
+	}
+
+	table.profile-settings th.title,
+	table.notification-settings th.title {
+		width: 80%;
+	}
+
+	table.notification-settings .yes,
+	table.notification-settings .no {
+		text-align: center;
+		width: 40px;
+	}
+}

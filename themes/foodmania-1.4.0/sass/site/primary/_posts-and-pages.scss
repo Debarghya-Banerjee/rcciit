@@ -1,0 +1,161 @@
+.post-meta {
+	color: $black;
+	font-size: rem-calc(11.2);
+	word-wrap: break-word;
+
+	.rtp-white-divider {
+		margin-top: rem-calc(10);
+	}
+
+	.rtp-meta-row {
+		background: #fafafa;
+		padding: rem-calc(15 5);
+		text-align: center;
+
+		.date-day {
+			font-weight: 900;
+			font-size: rem-calc(32);
+		}
+
+		.date-month {
+			display: block;
+			font-weight: 900;
+			font-size: rem-calc(18);
+			text-transform: uppercase;
+			margin-top: rem-calc(-8);
+		}
+
+		.rtp-meta-title {
+			text-transform: uppercase;
+			display: block;
+		}
+
+		.author {
+			display: block;
+
+			a {
+				text-transform: capitalize;
+			}
+		}
+
+		.rtp-cat-list, .rtp-tags-list {
+			color: $theme-color;
+		}
+
+		&:first-child {
+			padding-top: rem-calc(20);
+		}
+
+		&:last-child {
+			padding-bottom: rem-calc(20);
+		}
+	}
+
+	a {
+		& {
+			text-decoration: none;
+		}
+
+		&:hover, &:focus {
+			color: $link-hover-color;
+		}
+	}
+
+	& > .rtp-meta-separator {
+		&:first-child {
+			display: none;
+		}
+	}
+
+	.vcard {
+		border: 0;
+		display: inline;
+		margin: 0;
+		padding: 0;
+
+		.fn {
+			font-weight: normal;
+			font-size: rem-calc(13);
+		}
+	}
+}
+
+.post-meta-bottom {
+	padding: 1em 0 0;
+
+	.single & {
+		margin: 1.5em 0 0;
+		padding: 0;
+	}
+}
+
+/* Post Comment */
+.rtp-meta-separator {
+	padding: rem-calc(0 2);
+}
+
+.post-tags {
+	font-size: inherit;
+	margin-bottom: 0;
+}
+
+/* End - Post Meta */
+
+.entry-content {
+	.rtp-readmore {
+		display: inline-block;
+		margin-top: rem-calc(20);
+	}
+}
+
+.hentry {
+	.rtp-featured-image {
+		display: block;
+		margin-bottom: rem-calc(50);
+		text-align: center;
+
+		img {
+			display: inline-block;
+			margin: 0 auto;
+		}
+	}
+
+	.entry-title {
+		a {
+			color: $black;
+			font-size: rem-calc(26);
+		}
+	}
+
+	margin-bottom: rem-calc(40);
+}
+
+.rtp-list-post .rtp-featured-image-link, .single .wp-post-image {
+	margin-bottom: 32px;
+}
+
+.rtp-post-link-nav {
+	margin: rem-calc(50) 0;
+}
+
+.search,
+body.error404 {
+	.page-content {
+		.search-field {
+			float: left;
+		}
+
+		.search-submit {
+			height: 36px;
+			line-height: 30px;
+		}
+	}
+}
+
+.sticky {
+	position: relative;
+}
+
+.woocommerce ul.products li.product a {
+	opacity: 1;
+}

@@ -1,0 +1,13 @@
+.git
+.gitignore
+.distignore
+.github
+DEVELOPMENT.md
+phpcs.xml
+package.json
+package-lock.json
+Gruntfile.js
+.editorconfig
+.jscsrc
+config.rb
+node_modules

@@ -1,0 +1,11 @@
+.rtp-site-content.row {
+	margin-top: rem-calc(80);
+}
+
+#primary, #secondary {
+	padding-bottom: 4.5rem;
+}
+
+[class*="column"] + [class*="column"]:last-child {
+	float: left;
+}

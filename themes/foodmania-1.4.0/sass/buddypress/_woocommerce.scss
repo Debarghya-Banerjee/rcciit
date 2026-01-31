@@ -1,0 +1,318 @@
+.woocommerce .rtp-main-wrapper button,
+.woocommerce .rtp-main-wrapper .button,
+.woocommerce .rtp-main-wrapper input[type="submit"],
+.woocommerce .rtp-main-wrapper #payment #place_order,
+.woocommerce .rtp-main-wrapper #content-wrapper #content .button,
+.woocommerce-page .rtp-main-wrapper button,
+.woocommerce-page .rtp-main-wrapper .button,
+.woocommerce-page .rtp-main-wrapper input[type="submit"],
+.woocommerce-page .rtp-main-wrapper #payment #place_order,
+.woocommerce-page .rtp-main-wrapper #content-wrapper #content .button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+	border: none;
+	background: $theme-color;
+	color: $white;
+
+	&:hover {
+		background: $theme-color;
+		color: $white;
+	}
+}
+
+/* Header Cart Icon */
+.rtp-minicart-wrapper {
+	float: right;
+	margin: 13px 30px 0px 10px;
+	position: relative;
+	z-index: 6;
+
+	.dashicons {
+		position: relative;
+		top: 2px;
+	}
+
+	a.rtp-cart-contents-count {
+		color: $white;
+		cursor: pointer;
+		position: relative;
+	}
+
+	.rtp-count {
+		@include notification-count-span;
+
+		display: inline-block;
+	}
+}
+
+/* Cart Dropdown Content */
+.rtp-minicart-container.f-dropdown.open {
+	left: auto !important;
+	padding: 0.625rem;
+	right: -10px;
+	width: 260px !important;
+	max-width: none;
+
+	&:before {
+		left: auto;
+		right: 12px;
+	}
+
+	&:after {
+		left: auto;
+		right: 11px;
+	}
+}
+
+.rtp-minicart-container {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		overflow-y: auto;
+		max-height: 518px;
+	}
+
+	li {
+		position: relative;
+		clear: both;
+		overflow: hidden;
+		padding-bottom: rem-calc(10);
+		padding-top: rem-calc(10);
+		border-bottom: 1px solid $border-field;
+
+		&:first-child {
+			border-top: 0;
+		}
+
+		a {
+			padding: 0;
+		}
+	}
+
+	img {
+		max-width: 60px;
+		max-height: 60px;
+		float: left;
+	}
+
+	.rtp-remove {
+		font-size: 18px;
+		position: absolute;
+		right: 0;
+		top: 9px;
+		z-index: 1000;
+		width: 20px;
+		height: 20px;
+		padding: 0;
+		text-align: center;
+
+		&:hover, &:focus {
+			font-weight: bold;
+		}
+	}
+
+	.rtp-cart-list-product-img {
+		float: left;
+		margin-right: 4%;
+	}
+
+	.rtp-minicart-total-checkout {
+		text-align: right;
+		font-weight: bold;
+		margin-top: rem-calc(5);
+
+		.rtp-total {
+			margin-right: rem-calc(5);
+		}
+	}
+
+	.rtp-button-wrap {
+		clear: both;
+		overflow: hidden;
+		border-top: 1px solid $border-field;
+		padding: rem-calc(5 0 0);
+		margin-top: rem-calc(5);
+	}
+}
+
+.rtp-cart-list-product-title {
+	font-weight: 600;
+	margin-bottom: 2px;
+}
+
+body.woocommerce-cart table.cart td.actions .coupon .input-text {
+	padding: 5px 6px;
+	width: auto !important;
+}
+
+.woocommerce.woocommerce #reviews h3 {
+	margin: 0 0 10px;
+}
+
+.woocommerce.woocommerce .order_details {
+	margin: 0;
+	padding: 0;
+}
+
+.woocommerce .order_details li {
+	margin-bottom: 20px;
+}
+
+.woocommerce ul.products li.product:nth-child(2n),
+.woocommerce-page ul.products li.product:nth-child(2n) {
+	//margin-right: 0;
+}
+
+/* custom style  */
+
+// add to cart button
+.woocommerce {
+	a.button.add_to_cart_button {
+		padding: 9px 10px;
+		float: left;
+		font-size: 12px;
+	}
+
+	a.button.add_to_cart_button.loading {
+		opacity: 0.5;
+
+		&:after {
+			right: 41%;
+		}
+	}
+
+	.added_to_cart.wc-forward {
+		float: right;
+		margin-top: 10px;
+		font-size: 11px;
+		line-height: 24px;
+	}
+
+	ul.products li.product {
+		.price del {
+			float: left;
+			margin-right: 15px;
+		}
+
+		&:nth-child(4n) {
+			margin-right: 0px;
+		}
+	}
+
+	.quantity .qty {
+		padding: 4px;
+	}
+}
+
+.woocommerce-checkout .woocommerce {
+	#payment {
+		.payment_box.payment_method_cheque,
+		.payment_box.payment_method_paypal {
+			margin: 7px 0;
+
+			p {
+				margin-top: 0px;
+			}
+		}
+	}
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+	float: left;
+	margin: 0 20px 20px 0;
+	padding: 0;
+	position: relative;
+	width: 23%;
+	padding: 5px;
+}
+
+.woocommerce-checkout .woocommerce-billing-fields .state_select .select2-choice {
+	line-height: 28px;
+}
+
+/*
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product
+.hentry,
+.single-product div.product,
+.widget,
+.widget_calendar th,
+.widget_calendar td,
+.widget .rtas-tabs .login-register-tabs,
+.comment-body,
+.rtp-navigation,
+#main-wrapper #content-wrapper .tabs,
+#item-body > #bbpress-forums,
+#bbpress-forums ul.bbp-lead-topic,
+#bbpress-forums ul.bbp-topics,
+#bbpress-forums ul.bbp-forums,
+#bbpress-forums ul.bbp-replies,
+#bbpress-forums ul.bbp-search-results,
+#bbpress-forums div.bbp-topic-content code,
+#bbpress-forums div.bbp-reply-content code,
+#bbpress-forums div.bbp-topic-content pre,
+#bbpress-forums div.bbp-reply-content pre,
+.bbp-pagination-links span.current,
+.bbp-topic-pagination a,
+#bbpress-forums fieldset.bbp-form,
+body.topic-edit .bbp-topic-form div.avatar img,
+body.reply-edit .bbp-reply-form div.avatar img,
+body.single-forum .bbp-topic-form div.avatar img,
+body.single-reply .bbp-reply-form div.avatar img,
+#bbpress-forums div.bbp-the-content-wrapper textarea.bbp-the-content,
+#bbpress-forums div.bbp-the-content-wrapper div.quicktags-toolbar,
+#bbpress-forums #bbp-your-profile fieldset input,
+#bbpress-forums #bbp-your-profile fieldset textarea,
+#whats-new-options,
+#buddypress div.ac-reply-avatar img,
+.bp-docs div.docs-info-header,
+.docs div.docs-info-header,
+.bp-docs div.doc-content,
+.bp-docs .doctable,
+.docs div.doc-content,
+.docs .doctable,
+.bp-docs #buddypress #subnav.item-list-tabs,
+.docs #buddypress #subnav.item-list-tabs,
+.bp-docs #buddypress table#post-revisions,
+.docs #buddypress table#post-revisions,
+#buddypress .rtp-tab-wrapper,
+#buddypress .rtp-more-menus > ul,
+#subnav.item-list-tabs,
+ul.item-list > li,
+.rtp-group-header-container,
+.rendez-vous .wp-editor-area,
+#subnav + .rtmedia-container,
+body.woocommerce #content div.product .woocommerce-tabs ul.tabs,
+body.woocommerce div.product .woocommerce-tabs ul.tabs,
+body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs,
+body.woocommerce ul.products li.product,
+body.woocommerce-page ul.products li.product,
+.rtp-box-style,
+#pag-top,
+#pag-bottom,
+.buddypress.settings #item-body #subnav ~ form,
+.buddypress.single-item #item-body #ass-email-subscriptions-options-page,
+.buddypress.mycred-history #item-body #myCRED-wrap,
+.buddypress.group-events #item-body,
+#eab-events-fpe,
+#send-invite-form,
+#rendez-vous-edit-form,
+#rendez-vous-single-form,
+.my-events #eab-bp-my_events-wrapper,
+#invite-anyone-by-email,
+.buddypress.messages #item-body #send_message_form,
+.rtp-not-found,
+.rtp-comments-pagination,
+.f-dropdown {
+	border: 1px solid;
+}
+ */

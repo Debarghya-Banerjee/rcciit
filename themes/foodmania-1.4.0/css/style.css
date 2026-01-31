@@ -1,0 +1,310 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 6 Feb, 2014, 11:40:20 AM
+    Author     : ritz
+*/
+
+.mfp-bb-pc-pic .mfp-content {
+	width: 80%;
+	padding: 3%;
+	margin: 5% 0;
+	height: 80%;
+}
+
+.mfp-bb-pc-pic .mfp-content .bb_pc_user_media_container, .mfp-bb-pc-pic .mfp-content .bb_pc_user_media_container .bb_pc_user_photos_content {
+	height: 100%;
+}
+
+.mfp-bb-pc-pic .mfp-content .bb_pc_user_media_container, .mfp-bb-pc-pic .mfp-content .bb_pc_user_media_container .bb_pc_user_albums_content {
+	height: 100%;
+}
+
+.bb_pc_user_media_container .bb_pc_user_albums_content p, .bb_pc_user_media_container .bb_pc_user_photos_content p {
+	padding: 0 5px 5px;
+	margin: 0;
+	background-color: #EEE;
+	margin-bottom: 5px;
+}
+
+.bb_pc_user_media_container .bb_pc_loading_img, .bb_pc_user_photos_container .bb_pc_loading_img {
+	margin-left: 50%;
+	margin-top: 100px;
+}
+
+.bb_pc_user_media_container .bb_pc_user_photos_content span {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.mfp-bb-pc-pic .mfp-content .bb_pc_user_photos {
+	height: 80%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-bottom: 10px;
+}
+
+.mfp-bb-pc-pic .mfp-content .bb_pc_user_albums {
+	height: 80%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-bottom: 10px;
+}
+
+.mfp-bb-pc-pic .mfp-content .bb_pc_user_media_container .bb_pc_user_photos ul {
+	margin: 0;
+	padding: 0;
+}
+
+.mfp-bb-pc-pic .mfp-content .bb_pc_user_media_container .bb_pc_user_albums ul {
+	margin: 0;
+	padding: 0;
+}
+
+.mfp-bb-pc-pic .bb_pc_user_media_container .bb_pc_user_photos ul li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.mfp-bb-pc-pic .bb_pc_user_media_container .bb_pc_user_albums ul li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.mfp-bb-pc-pic .bb_pc_user_media_container .bb_pc_user_photos ul li img, .mfp-bb-pc-pic .bb_pc_user_media_container .bb_pc_user_albums ul li img {
+	height: 120px;
+	display: block;
+	padding: 3px;
+	background-color: #CCC;
+	border-radius: 2px;
+}
+
+.mfp-bb-pc-pic .bb_pc_user_media_container .bb_pc_user_albums ul li label {
+	text-align: center;
+	display: block;
+}
+
+.mfp-bb-pc-pic .bb_pc_user_media_container .bb_pc_user_photos ul li img.selected {
+	border: 3px solid #888;
+}
+
+.mfp-bb-pc-pic .bb_pc_user_media_container .bb_pc_user_albums ul li img.selected {
+	border: 3px solid #888;
+}
+
+.bb_pc_rtmedia_change_cover_pic .bb_pc_upload_photo_input, #item-header-avatar .bb_pc_upload_photo_input, #item-header-avatar #bb_pc_upload_photo_fake_a {
+	display: none;
+}
+
+#item-header .bb_pc_rtmedia_featured_media:hover .bb_pc_rtmedia_change_cover_pic {
+	display: inline-block;
+}
+
+#item-header .bb_pc_rtmedia_change_cover_pic {
+	position: absolute;
+	width: 85px;
+	height: 25px;
+	top: 32%;
+	right: 30px;
+	font-size: 12px;
+	display: none;
+	z-index: 100;
+}
+
+.rtp-full-width-layout #item-header .bb_pc_rtmedia_change_cover_pic {
+	right: 160px;
+}
+
+#item-header .bb_pc_rtmedia_change_cover_pic .bb_pc_rtmedia_change_cover_pic_label {
+	cursor: pointer;
+	background-color: #FFF;
+	border: 1px solid #AAA;
+	border-radius: 2px;
+	padding: 2px 5px;
+	color: #141412;
+	display: block;
+}
+
+#item-header .bb_pc_rtmedia_change_cover_pic ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+	opacity: 0.8;
+	position: absolute;
+	right: 0;
+	width: 150px;
+}
+
+#item-header .bb_pc_rtmedia_change_cover_pic ul {
+	list-style: none;
+	padding: 3px 10px;
+}
+
+#buddypress #item-header .bb_pc_rtmedia_change_cover_pic li {
+	display: block;
+	float: none;
+	padding: 0;
+	margin: 0;
+}
+
+#buddypress #item-header .bb_pc_rtmedia_change_cover_pic li a, #buddypress #item-header #item-header-avatar ul li a {
+	color: #000;
+	text-decoration: none;
+	padding: 3px 5px;
+	display: block;
+}
+
+#buddypress #item-header #item-header-avatar ul li a#bb_pc_upload_photo_fake_a {
+	display: none;
+}
+
+#buddypress #item-header .bb_pc_rtmedia_change_cover_pic li a:hover, #buddypress div#item-header #item-header-avatar ul li a:hover {
+	text-decoration: none;
+	color: #222;
+	background-color: #FFF;
+}
+
+#item-header-avatar {
+	position: relative;
+}
+
+#item-header-avatar .bb_pc_rtmedia_change_profile_pic {
+	position: absolute;
+	left: 0;
+	top: 100px;
+	font-size: 12px;
+	width: 100%;
+	padding: 0 25px 0 25px;
+	display: none;
+}
+
+#item-header-avatar:hover
+.bb_pc_rtmedia_change_profile_pic {
+    display: inline-block !important;
+}
+
+#item-header-avatar .bb_pc_rtmedia_change_profile_pic .bb_pc_rtmedia_change_profile_pic_label {
+	padding: 2px 0;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	background-color: #CCC;
+	color: #141412;
+	border-radius: 3px;
+	border: 1px solid #BBB;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+#buddypress div#item-header {
+	overflow: visible;
+}
+
+#item-header-avatar .bb_pc_rtmedia_change_profile_pic ul {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	display: none;
+	z-index: 10;
+	position: relative;
+}
+
+#item-header-avatar .bb_pc_rtmedia_change_profile_pic ul li {
+	padding: 3px 10px;
+}
+
+#buddypress div#item-header #item-header-avatar ul li {
+	float: none;
+}
+
+.bb_pc_user_photos_container .bb_pc_crop_avatar_label {
+	display: block;
+	margin-bottom: 10px;
+	color: black;
+}
+
+.bb_pc_rtmedia_featured_media, .fm-bp-cover-photo {
+	background-color: #DDD;
+	background-repeat: repeat-x;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#DDD), to(#333));
+	background: -webkit-linear-gradient(top, #DDD, #333);
+	background: -moz-linear-gradient(top, #DDD, #333);
+	background: -ms-linear-gradient(top, #DDD, #333);
+	background: -o-linear-gradient(top, #DDD, #333);
+	max-width: 100%;
+	max-height: 520px;
+	overflow: hidden;
+	position: relative;
+}
+
+.rtp-cover-img-empty {
+	min-height: 400px;
+}
+
+.rtp-mentionname {
+	color: inherit;
+	opacity: 0.8;
+}
+
+#bb_pc_loading_div {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #222;
+	opacity: 0.8;
+	z-index: 999;
+}
+
+#bb_pc_loading_div p {
+	margin: 0 0 24px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	color: #888;
+}
+
+.bb_pc_cover_link img[src=""] {
+	display: block !important;
+	height: 400px;
+	visibility: hidden;
+}
+
+.rtp-group-feature-img {
+	margin: 0 0 30px;
+}
+
+.rtp-group-feature-img .bb_pc_rtmedia_featured_media {
+	margin: 0;
+}
+
+.standard-form .button.wp-generate-pw {
+	border: 2px solid #DEB25E;
+	background: none;
+	color: #DEB25E;
+}
+
+.standard-form .button.wp-generate-pw:hover {
+	color: #fff;
+}
+
+.date-permalink {
+	color: #000000;
+}
+
+.entry-content {
+	overflow-wrap: break-word;
+}
+
+/* Add some spacing between the 'Go to page'-panel and the pagination of rtMedia */
+.rtm-paginate {
+	margin-top: 1.5em;
+}

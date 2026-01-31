@@ -1,0 +1,159 @@
+/*!
+ * Admin CSS
+ */
+
+// ***** Compass Imports ***** //
+@import "compass/css3";
+@import "compass/typography";
+
+// Dynamic Variables
+$text-color: #333333;
+$gray: #CCCCCC;
+$light-gray: #DDDDDD;
+$red: red;
+$light-red: #FFEBE8;
+$green: green;
+$orange: orange;
+
+// ***** Links ***** //
+$link-color: #006999;
+$link-hover-color: #CD5A1B;
+
+/* Utility Classes */
+// Show
+.show {
+	display: block;
+}
+
+// Hide
+.hide, .hidden {
+	display: none;
+}
+
+// Clear
+.clear {
+	clear: both;
+	content: '\0020';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+	width: 0;
+}
+
+/* The Magnificent "Clear" fix */
+// For More Info Visit: http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+
+/* Plugin support */
+.redux-main .rtp-manage-plugin {
+	a {
+		text-decoration: none;
+	}
+
+	.active {
+		color: $green;
+	}
+
+	.inactive {
+		color: $orange;
+	}
+
+	.not-installed {
+		color: $red;
+	}
+
+	th {
+		font-weight: 700;
+	}
+
+	.form-table {
+		th, td {
+			border-bottom: 1px solid $light-gray;
+			font-size: 12px;
+			padding: 10px;
+		}
+
+		td.last-child {
+			border: none;
+		}
+	}
+}
+
+#poststuff tr td {
+	padding: 10px;
+}
+
+// Ajax loader used in plugins section
+.rtp-ajax-loder {
+	margin: -2px 3px 0 6px;
+	position: relative;
+	top: 3px;
+	width: 15px;
+	height: 15px;
+}
+
+// Support Form
+.rtp-support-form {
+	list-style: none;
+
+	li {
+		padding-bottom: 15px;
+	}
+
+	label {
+		float: left;
+		line-height: 2;
+		width: 12%;
+	}
+
+	input[type=text],
+	textarea {
+		width: 40%;
+	}
+
+	textarea {
+		height: 80px;
+	}
+}
+
+// Form submit button
+.rtp-button-cotainer {
+	padding-left: 12%;
+}
+
+// Debug Info
+#rtp-debug-info {
+	background: white;
+	border: 1px solid #e5e5e5;
+	padding: 15px;
+
+	th, td {
+		font-size: 12px;
+		padding: 8px !important;
+	}
+}
+
+/** NEW FOOMANIA CSS */
+.rtp-license-settings#poststuff {
+	padding: 20px;
+}
+
+.rtp-admin-page .dashicons {
+	margin-right: 5px;
+	margin-top: 4px;
+}
+
+.foodmania-license-status-deactivated {
+	color: red;
+}
+
+.foodmania-license-status-activated {
+	color: green;
+}

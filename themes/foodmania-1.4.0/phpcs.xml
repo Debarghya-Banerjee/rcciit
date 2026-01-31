@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress-Theme">
+	<description>WordPress and VIP Go Coding Standards</description>
+
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
+	</rule>
+
+	<rule ref="WordPressVIPMinimum">
+		<exclude name="WordPressVIPMinimum.Functions.RestrictedFunctions.get_adjacent_post_get_adjacent_post" />
+		<exclude name="WordPressVIPMinimum.Functions.RestrictedFunctions.attachment_url_to_postid_attachment_url_to_postid" />
+		<exclude name="WordPressVIPMinimum.Functions.RestrictedFunctions.wp_remote_get_wp_remote_get" />
+	</rule>
+
+	<rule ref="WordPress-VIP-Go" />
+
+	<rule ref="PHPCompatibility">
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
+	</rule>
+
+	<config name="testVersion" value="7.0-"/>
+
+	<arg name="extensions" value="php"/>
+	<arg value="s"/>
+	<arg name="severity" value="1" />
+
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+	<exclude-pattern>.github/</exclude-pattern>
+
+	<exclude-pattern>titan-framework/</exclude-pattern>
+	<exclude-pattern>Gruntfile.js</exclude-pattern>
+
+</ruleset>

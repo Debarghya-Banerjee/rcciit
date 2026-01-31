@@ -1,0 +1,55 @@
+button,body #buddypress input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	@include button;
+	padding: .4rem 1.25rem 0.4rem;
+	font-size: 15px;
+}
+
+.button-link-div {
+	margin-bottom: 10px;
+
+	&.left {
+		float: left;
+	}
+
+	&.right {
+		float: right;
+	}
+
+    a {
+		display: block;
+        @include button( 10, 15, 16 );
+    }
+}
+
+#buddypress .bp-messages-content #thread-preview .preview-content {
+	button.message-action-delete {
+		background: transparent;
+		color: #404040;
+	}
+}
+
+.bp-avatar {
+	#bp-avatars-history-container .avatars-history .avatar-history-actions,
+	#bp-delete-avatar-container {
+		button.edit,
+		button.recycle,
+		button.disabled {
+			border: 1px solid $theme-color;
+			&:hover, &:focus {
+				border: 1px solid $theme-color;
+				color: $theme-color;
+				background: #fff;
+			}
+		}
+
+		button.delete:not(.disabled) {
+			&:hover, &:focus {
+				color: #fff;
+				background: #800;
+			}
+		}
+	}
+}
