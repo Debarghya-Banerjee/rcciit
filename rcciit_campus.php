@@ -1,10 +1,12 @@
 <?php
-/*
-Plugin Name: RCCIIT Campus Connect
-Description: RCCIIT & WordPress Campus Connect Program.
-Version: 1.0
-Author: Shibashis Das
-*/
+/**
+ * Plugin Name: RCCIIT Campus Connect
+ * Plugin URI: https://github.com/shibashisdas76/rcciit
+ * Description: Collects student feedback for RCCIIT X WordPress Campus Connect program.
+ * Version: 1.0.0
+ * Author: Shibashis Das
+ * License: GPL v2 or later
+ */
 
 if (!defined('ABSPATH')) {
     exit;
