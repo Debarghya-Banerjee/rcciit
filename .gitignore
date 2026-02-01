@@ -1,5 +1,9 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+node_modules/
+.env
+.DS_Store
+*.log
+
+# WordPress - ignore core, configuration, examples, uploads and logs.
 /languages/
 /uploads/
 /debug.log
